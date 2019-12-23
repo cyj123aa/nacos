@@ -1,0 +1,286 @@
+2019-12-19 10:08:30,282 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:08:30,285 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 10:08:36,295 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:08:36,295 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 10:15:21,384 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576721705214
+
+2019-12-19 10:15:30,350 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576721712566
+
+2019-12-19 10:15:33,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_false,
+
+2019-12-19 10:15:35,706 INFO service: DEFAULT_GROUP@@manage-base {POS} {IP-ENABLED} valid: 192.168.1.13:9102@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 10:15:36,589 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 10:15:36,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 10:15:38,203 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:15:38,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 10:17:14,933 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 10:29:41,756 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576722564120
+
+2019-12-19 10:29:41,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_false,
+
+2019-12-19 10:29:45,927 INFO service: DEFAULT_GROUP@@manage-gateway {POS} {IP-ENABLED} valid: 192.168.1.13:9101@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 10:30:21,763 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576722605924
+
+2019-12-19 10:30:36,210 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_false,
+
+2019-12-19 10:30:40,159 INFO service: DEFAULT_GROUP@@manage-gateway {POS} {IP-ENABLED} valid: 192.168.1.13:9101@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 10:31:11,772 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576722655153
+
+2019-12-19 10:31:15,612 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576722655899
+
+2019-12-19 10:31:26,778 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 10:31:26,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 10:31:30,617 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 10:31:30,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2019-12-19 10:31:34,422 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:31:34,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 10:31:57,329 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:31:57,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 10:33:10,108 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 10:33:36,818 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576722799161
+
+2019-12-19 10:33:45,196 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_false,
+
+2019-12-19 10:33:49,294 INFO service: DEFAULT_GROUP@@manage-gateway {POS} {IP-ENABLED} valid: 192.168.1.13:9101@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 10:42:26,931 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576723329442
+
+2019-12-19 10:42:41,991 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 10:42:41,991 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 10:42:48,690 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 10:42:48,690 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:25:16,437 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576725900951
+
+2019-12-19 11:25:17,566 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576725898245
+
+2019-12-19 11:25:31,448 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 11:25:31,449 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2019-12-19 11:25:32,572 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 11:25:32,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 11:25:45,040 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:25:45,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 11:26:05,042 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576725950032
+
+2019-12-19 11:26:20,050 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 11:26:20,050 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2019-12-19 11:34:20,971 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:34:20,971 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 11:34:27,423 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:34:27,423 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 11:34:32,711 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:34:32,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:38:19,447 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:38:19,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2019-12-19 11:38:19,489 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:38:19,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2019-12-19 11:38:27,848 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576726691799
+
+2019-12-19 11:38:30,151 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:38:30,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 11:38:30,223 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:38:30,223 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 11:38:31,125 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_false,
+
+2019-12-19 11:38:34,809 INFO service: DEFAULT_GROUP@@manage-gateway {POS} {IP-ENABLED} valid: 192.168.1.13:9101@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 11:41:38,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:41:57,889 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576726902772
+
+2019-12-19 11:42:12,899 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 11:42:12,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 11:42:40,826 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:42:40,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:45:44,764 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:45:44,767 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:45:53,414 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:45:53,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 11:46:01,892 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:46:01,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 11:48:16,923 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576727279081
+
+2019-12-19 11:48:18,517 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_false,
+
+2019-12-19 11:48:20,670 INFO service: DEFAULT_GROUP@@manage-base {POS} {IP-ENABLED} valid: 192.168.1.13:9102@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 11:51:38,492 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576727483396
+
+2019-12-19 11:51:39,824 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576727483264
+
+2019-12-19 11:51:41,977 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576727485722
+
+2019-12-19 11:51:46,150 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_false,
+
+2019-12-19 11:51:47,607 INFO service: DEFAULT_GROUP@@manage-base {POS} {IP-ENABLED} valid: 192.168.1.13:9102@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 11:51:52,734 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2019-12-19 11:51:54,941 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 11:51:54,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 11:51:57,493 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 11:51:57,493 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 11:51:57,711 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 11:55:10,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 11:56:12,044 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576727752312
+
+2019-12-19 11:56:13,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_false,
+
+2019-12-19 11:56:15,471 INFO service: DEFAULT_GROUP@@manage-base {POS} {IP-ENABLED} valid: 192.168.1.13:9102@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 12:32:36,553 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576729885856
+
+2019-12-19 12:32:36,554 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576729887754
+
+2019-12-19 12:32:36,557 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576729886840
+
+2019-12-19 12:32:36,562 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 12:32:36,562 INFO service: DEFAULT_GROUP@@manage-gateway {POS} {IP-ENABLED} valid: 192.168.1.13:9101@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 12:32:36,564 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 12:32:36,564 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2019-12-19 12:32:36,565 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 12:32:36,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 12:32:36,565 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 12:32:36,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2019-12-19 12:32:36,568 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 12:32:36,568 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 12:32:36,570 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 12:32:36,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 12:32:41,515 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 12:32:41,515 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 13:03:26,912 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576731787785
+
+2019-12-19 13:03:27,169 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2019-12-19 13:03:32,151 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 13:05:26,922 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576731906941
+
+2019-12-19 13:05:31,228 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_false,
+
+2019-12-19 13:05:33,143 INFO service: DEFAULT_GROUP@@manage-base {POS} {IP-ENABLED} valid: 192.168.1.13:9102@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-19 13:33:07,255 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576733572178
+
+2019-12-19 13:33:12,256 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576733572262
+
+2019-12-19 13:33:12,256 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576733573441
+
+2019-12-19 13:33:22,265 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 13:33:22,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2019-12-19 13:33:27,265 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 13:33:27,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2019-12-19 13:33:27,267 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 13:33:27,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 13:37:26,408 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 13:37:26,408 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+
+2019-12-19 13:37:32,128 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 13:37:32,128 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2019-12-19 13:37:47,243 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-19 13:37:47,243 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+
+2019-12-19 16:01:03,767 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1576742447271
+
+2019-12-19 16:01:03,767 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9101@DEFAULT@DEFAULT_GROUP@@manage-gateway, region: unknown, msg: client timeout after 15000, last beat: 1576742447010
+
+2019-12-19 16:01:08,768 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1576742450879
+
+2019-12-19 16:01:18,805 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 16:01:18,806 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 
+
+2019-12-19 16:01:18,806 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 16:01:18,806 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2019-12-19 16:01:23,777 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-19 16:01:23,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+

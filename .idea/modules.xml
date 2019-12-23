@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cyj.iml" filepath="$PROJECT_DIR$/.idea/cyj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hoolink-sdk/hoolink-sdk.iml" filepath="$PROJECT_DIR$/hoolink-sdk/hoolink-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manage-base/manage-base.iml" filepath="$PROJECT_DIR$/manage-base/manage-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manage-edm/manage-edm.iml" filepath="$PROJECT_DIR$/manage-edm/manage-edm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manage-gateway/manage-gateway.iml" filepath="$PROJECT_DIR$/manage-gateway/manage-gateway.iml" />
+    </modules>
+  </component>
+</project>
