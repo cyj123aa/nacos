@@ -1,4 +1,0 @@
-2019-12-16 15:09:02,753 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2019-12-16 15:09:02,757 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
-

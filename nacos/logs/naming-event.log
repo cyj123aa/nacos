@@ -1,12 +1,186 @@
-2019-12-23 14:23:09,888 INFO DEFAULT_GROUP@@manage-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2020-01-03 11:43:41,604 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2019-12-23 14:23:09,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-gateway, ips: 192.168.1.13:9101_true,
+2020-01-03 11:43:41,607 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
 
-2019-12-23 14:24:09,186 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2020-01-03 11:45:40,834 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2019-12-23 14:24:09,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
+2020-01-03 11:45:40,834 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 192.168.1.13:9102_true,
 
-2019-12-23 14:24:15,546 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2020-01-03 11:46:31,598 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578023176488
 
-2019-12-23 14:24:15,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+2020-01-03 11:46:35,842 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:9102@DEFAULT@DEFAULT_GROUP@@manage-base, region: unknown, msg: client timeout after 15000, last beat: 1578023177901
+
+2020-01-03 11:46:46,867 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 11:46:46,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 11:46:50,850 INFO DEFAULT_GROUP@@manage-base {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:9102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 11:46:50,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-base, ips: 
+
+2020-01-03 11:47:19,911 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 11:47:19,911 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 11:49:36,540 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 11:50:21,945 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578023406497
+
+2020-01-03 11:50:36,959 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 11:50:36,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 11:55:22,499 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 11:55:22,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 11:57:22,027 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578023822467
+
+2020-01-03 11:57:23,665 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 11:57:28,650 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:01:17,552 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578026523690
+
+2020-01-03 13:01:21,260 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:01:21,262 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:01:21,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:01:21,265 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:01:21,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:01:51,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:03:12,570 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578027775979
+
+2020-01-03 13:03:16,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 13:03:21,147 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:05:32,602 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578027916129
+
+2020-01-03 13:05:47,617 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 13:05:47,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:06:42,273 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:06:42,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:09:32,699 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578028157239
+
+2020-01-03 13:09:34,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 13:09:39,535 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:10:37,711 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578028219532
+
+2020-01-03 13:10:37,962 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 13:10:42,916 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:12:19,923 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:13:12,658 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:15:22,764 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578028507630
+
+2020-01-03 13:15:28,641 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 13:15:33,614 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:18:42,803 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578028703608
+
+2020-01-03 13:18:57,812 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 13:18:57,812 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:27:11,904 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:27:11,905 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:32:22,986 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578029526876
+
+2020-01-03 13:32:38,023 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 13:32:38,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:33:20,464 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:33:20,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:38:03,077 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578029865437
+
+2020-01-03 13:38:06,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 13:38:11,158 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 13:41:33,116 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578030076144
+
+2020-01-03 13:41:48,127 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 13:41:48,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:42:20,092 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:42:20,092 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 13:46:43,179 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578030385064
+
+2020-01-03 13:46:58,188 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 13:46:58,189 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 13:50:37,888 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 13:50:37,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 14:25:23,373 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:25:23,373 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 14:25:30,860 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:25:30,860 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 14:30:25,310 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:30:25,310 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 14:30:32,172 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:30:32,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 14:30:34,923 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:30:34,923 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 14:30:42,074 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 14:30:42,074 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 15:49:15,579 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578034952114
+
+2020-01-03 15:49:15,583 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 15:49:15,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
+
+2020-01-03 15:49:15,611 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-03 15:49:15,612 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_true,
+
+2020-01-03 15:59:00,720 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578038322185
+
+2020-01-03 15:59:15,251 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 192.168.1.13:8080_false,
+
+2020-01-03 15:59:20,212 INFO service: DEFAULT_GROUP@@manage-edm {POS} {IP-ENABLED} valid: 192.168.1.13:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-03 16:27:21,022 INFO {POS} {IP-DISABLED} valid: 192.168.1.13:8080@DEFAULT@DEFAULT_GROUP@@manage-edm, region: unknown, msg: client timeout after 15000, last beat: 1578040025245
+
+2020-01-03 16:27:36,027 INFO DEFAULT_GROUP@@manage-edm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.13:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-03 16:27:36,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@manage-edm, ips: 
 

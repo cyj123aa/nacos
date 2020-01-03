@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/manage-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/manage-base/pom.xml" />
         <option value="$PROJECT_DIR$/manage-edm/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </list>
     </option>
   </component>
